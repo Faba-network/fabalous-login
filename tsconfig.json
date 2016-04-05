@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "sourceMap": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "jsx": "react",
+        "declaration": true,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "rootDir": "./",
+        "outDir": "./"
+    },
+
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+
+    "rootDirs": [
+        "./"
+    ],
+
+    "paths": {
+        "*": ["*"]
+    },
+    "exclude": ["test"],
+    "files": [
+        "./controller/LoginMediator.ts",
+        "./view/Login.tsx",
+        "./model/vo/Address.ts",
+        "./model/vo/UserVo.ts",
+        "./model/LoginModel.ts",
+        "./controller/command/LoginCommand.ts",
+        "./controller/command/LoginUserCommand.ts",
+        "./controller/event/LoginShowEvent.ts",
+        "./controller/event/LoginUserEvent.ts",
+        "./controller/service/LoginService.ts"
+    ]
+}
